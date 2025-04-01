@@ -71,3 +71,14 @@ For more information visit the CCExtractor website: [https://www.ccextractor.org
 ## License
 
 GNU General Public License version 2.0 (GPL-2.0)
+### Windows (Scoop)
+Install via [Scoop](https://scoop.sh/):
+
+```powershell
+# First install Scoop if needed:
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+irm get.scoop.sh | iex
+
+# Then install:
+scoop bucket add extras
+scoop install ccextractors
